@@ -1,0 +1,25 @@
+body {
+  background-image:url(fondo.png);
+  padding-top: 35px; 
+}
+
+.encabezado {
+  background:#ccccff;
+  margin:10px auto;
+  padding: 40px 15px;
+  text-align: center;
+}
+.columnas{
+    font size: 1.2em;
+    -webkit-column-count:3;
+    -moz-column-count:3;
+     column-count: 3;
+    
+    -webkit-column-gap:2em;
+    -moz-column-gap;2em;
+     column-gap:2em;
+   /* 
+     -webkit-column-rule:2px outset black;
+     -moz-column-rule:2px outset black;
+     column-rule:1px outset black;*/
+}
